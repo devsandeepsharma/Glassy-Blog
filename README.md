@@ -103,4 +103,8 @@ Don’t forget this part. Without this, your animation might get unexpected beha
 
 * [Full Page Theme Toggle Animation with View Transitions API - Akash Hamirwasia](https://akashhamirwasia.com/blog/full-page-theme-toggle-animation-with-view-transitions-api/)
 
+## Preview 
 
+<img src="./assets//3.gif" />
+<img src="./assets//1.png" />
+<img src="./assets//2.png" />
