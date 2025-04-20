@@ -10,15 +10,15 @@ async function toggleTheme() {
     }
 
     const { top, left, width, height } = button.getBoundingClientRect();
-        const x = left + width / 2;
-        const y = top + height / 2;
+    const x = left + width / 2;
+    const y = top + height / 2;
 
-        const right = window.innerWidth - left;
-        const bottom = window.innerHeight - top;
-        const maxRadius = Math.hypot(Math.max(left, right), Math.max(top, bottom));
+    const right = window.innerWidth - left;
+    const bottom = window.innerHeight - top;
+    const maxRadius = Math.hypot(Math.max(left, right), Math.max(top, bottom));
 
-        await document.startViewTransition(() => {
-            body.classList.toggle('dark-mode');
+    await document.startViewTransition(() => {
+        body.classList.toggle('dark-mode');
     }).ready;
 
     document.documentElement.animate(
